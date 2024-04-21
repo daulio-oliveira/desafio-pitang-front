@@ -1,0 +1,22 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2f4f4f;
+  }
+  
+  .mat-card {
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+  }
+  
+  .mat-raised-button {
+    background-color: #ff4500;
+    color: white;
+    width: 100%;
+  }

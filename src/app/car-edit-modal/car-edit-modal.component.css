@@ -1,0 +1,27 @@
+form {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 10px;
+}
+
+button {
+    height: 35px;
+    width: 100% !important;
+    background: #ee5508 !important;
+    color: white !important;
+}
+
+button:disabled {
+    height: 35px;
+    width: 100% !important;
+    background: #d46f3c !important;
+    color: white !important;
+}
+
+.button-cancel {
+    height: 35px;
+    width: 100% !important;
+    background: #1f1c1b !important;
+    color: white !important;
+
+}

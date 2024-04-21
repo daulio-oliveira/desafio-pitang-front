@@ -1,0 +1,91 @@
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    align-items: center;
+}
+
+.header a {
+    align-items: center;
+    text-decoration: none;
+}
+
+.title-group {
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.header .title-group i {
+    padding-right: 5px;
+}
+
+.spacer {
+    flex: 1 0 auto;
+}
+
+button {
+    background-color: transparent;
+    width: 200px;
+    margin-left: 5px;
+    font-size: 1.2rem;
+}
+
+.menuButton {
+    width: auto;
+    font-size: 1.2rem
+}
+
+
+.example-icon {
+    padding: 0 14px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.mat-icon {
+    padding-right: 5px;
+}
+
+.mat-toolbar {
+    background-color: #242220;
+}
+
+.mat-card-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    width: 500px;
+    background-color: rgb(226, 217, 217);
+}
+
+.button-mob {
+    width: 100px;
+    background-color: rgb(226, 217, 217);
+}
+
+.labelUsuario {
+    font-size: 8;
+    margin-right: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+
+mat-icon-button {
+    width: 10px;
+}
+
+.icon-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+

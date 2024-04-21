@@ -1,0 +1,15 @@
+<!-- user-dialog.component.html -->
+<h2 mat-dialog-title>My Informations</h2>
+<div mat-dialog-content>
+  <p>First Name: {{data.firstName}}</p>
+  <p>Last Name: {{data.lastName}}</p>
+  <p>Birthday: {{data.birthday | date: 'dd/MM/yyyy'}}</p>
+  <p>E-mail: {{data.email}}</p>
+  <p>Login: {{data.login}}</p>
+  <p>Phone: {{data.phone}}</p>
+  <p>Create At: {{data.createAt | date: 'dd/MM/yyyy'}}</p>
+  <p>Last Login: {{data.lastLogin | date: 'dd/MM/yyyy'}}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Close</button>
+</div>

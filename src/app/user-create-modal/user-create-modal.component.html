@@ -1,0 +1,31 @@
+<h2>New User</h2>
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+        <input matInput placeholder="First Name" formControlName="firstname">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Last Name" formControlName="lastname">
+    </mat-form-field> 
+    <mat-form-field>
+        <input matInput type="date" placeholder="Birthday" formControlName="birthday">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput type="email" placeholder="E-mail" formControlName="email">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Phone" formControlName="phone">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Login" formControlName="login">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Password" formControlName="password"
+            type="password">
+    </mat-form-field>
+
+    <button mat-raised-button type="submit" class="btn_save"
+        [disabled]="registerForm.invalid">Save</button>
+
+    <button mat-raised-button type="button" (click)="onClose();"
+    class="button-cancel">Cancel</button>
+</form>

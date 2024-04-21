@@ -1,0 +1,22 @@
+<h2>Edit Car</h2>
+<form [formGroup]="carForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+        <input matInput placeholder="Model" formControlName="model">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput placeholder="Color" formControlName="color">
+    </mat-form-field> 
+    <mat-form-field>
+        <input matInput placeholder="Year" formControlName="year">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="License Plate" formControlName="licenseplate">
+    </mat-form-field>
+
+    <button mat-raised-button type="submit"
+        [disabled]="carForm.invalid">Save</button>
+
+    <button mat-raised-button type="button" (click)="onClose();"
+        class="button-cancel">Cancel</button>
+</form>
